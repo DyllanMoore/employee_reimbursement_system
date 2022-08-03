@@ -1,0 +1,153 @@
+/* Variables */
+:root {
+    --blue: #006ED0;
+    --green: #5BFC4B;
+    --purple: #B48CFC;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --large-font: 30pt;
+    --med-font: 18pt;
+    --small-font:12pt;
+
+    --shadow: 3px 3px 5px var(--blue);
+    --hover-shadow: 1px 1px 3px var(--blue);
+    --radius: 5px;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--white);
+}
+/* Buttons */
+.submit-button {
+    border: 2px solid var(--black);
+    box-shadow: var(--shadow);
+    background-color: var(--white);
+    color: var(--black);
+    font-size: var(--med-font);
+    border-radius: var(--radius);
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    box-shadow: var(--hover-shadow);
+}
+
+/* Images */
+.logo {
+    width: 50vw;
+    padding-top: 1vh;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+
+#header-refresh {
+    cursor: pointer;
+}
+
+/* Divs */ 
+.wrapper {
+    width: 70vw;
+    height: 100%;
+    margin: auto;
+}
+
+.centered-div {
+    text-align: center;
+}
+
+.left-border, .right-border {
+    height: 140vh;
+    width: 15vw;
+    background-color: var(--green);
+}
+
+.left-border {
+    float: left;
+    display: inline;
+}
+
+.right-border{
+    float: right;
+    display: inline;
+}
+
+.hidden-container {
+    display: none;
+}
+
+/* Text */
+h2 {
+    font-size: var(--med-font);
+}
+
+.header {
+    font-size: var(--large-font);
+}
+
+.input-label {
+    color: var(--black);
+    font-size: var(--med-font);
+}
+
+.link {
+    color: var(--black);
+    font-size: var(--med-font);
+    text-decoration: none;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: var(--purple);
+}
+
+.failed {
+    color: red;
+    font-size: var(--med-font);
+}
+
+.success {
+    color: var(--green);
+    font-size: var(--med-font)
+}
+
+/* Table */
+table {
+    width: 60vw;
+    padding-left: 10vw;
+    margin-top: 2vh;
+}
+
+th {
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: var(--med-font);
+}
+
+td {
+    font-size: var(--small-font);
+    border-bottom: 2px solid var(--purple);
+    padding: .5vh 1vw;
+    text-align: center;
+}
+
+/* Inputs & Labels */
+.input {
+    font-size: var(--med-font);
+}
+
+.input:focus {
+    outline: none;
+    border: 3px solid var(--purple);
+    border-radius: 5px;
+}
+/* Margins & Padding */
+.small-margin {
+    margin: 2vh 0vw;
+}
+
+.large-top-padding {
+    padding-top: 5vh;
+}

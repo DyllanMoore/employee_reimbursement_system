@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="/CSS/stylesheet.css">
+</head>
+<body>
+    <div class="left-border"></div>    
+    <div class="right-border"></div>
+    <div class="centered-div">
+        <img src="/resources/logo.png" class="logo" id="header-refresh">
+        <h2>We scare because we care.</h2>
+    </div>
+    <div id="error-div" class="failed centered-div"></div>
+    <div id="new-user-added-div" class="centered-div success">
+    </div>
+    <div class="centered-div">
+            <label for="create-first-name" class="input-label small-margin">First Name:</label>
+            <input id="create-first-name" type="text" class="input small-margin">
+            <br>
+            <label for="create-last-name" class="input-label small-margin">Last Name:</label>
+            <input id="create-last-name" type="text" class="input small-margin">
+            <br>
+            <label for="create-email" class="input-label small-margin">Email:</label>
+            <input id="create-email" type="email" class="input small-margin">
+            <br>
+            <label for="create-role" class="input-label small-margin">Job Role:</label>
+            <select id="create-role" class="input small-margin">
+                <option value="blank"></option>
+                <option value="1">Scarer</option>
+                <option value="2">Scarer Assistant</option>
+                <option value="3">Secretary</option>
+                <option value="4">Hazmat</option>
+                <option value="5">Key Master</option>
+            </select>
+            <br>
+            <label for="create-username" class="input-label small-margin">Username:</label>
+            <input id="create-username" type="text" class="input small-margin">
+            <br>
+            <label for="create-password" class="input-label small-margin">Password:</label>
+            <input id="create-password" type="password" class="input small-margin">
+            <br>
+            <label for="confirm-create-password" class="input-label small-margin">Confirm Password:</label>
+            <input id="confirm-create-password" type="password" class="input small-margin">
+            <br>
+            <button type="button" id="create-submit-button" class="submit-button">Submit</button>
+            <br>
+    </div>
+    <div class="centered-div">
+        <a id="have-account-button" href="/HTML/login.html" class="link">Already have an account?</a>
+    </div>
+    <script src="/JS/createAccount.js"></script>
+</body>
+</html>
